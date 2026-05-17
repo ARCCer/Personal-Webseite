@@ -75,12 +75,6 @@ How agentic AI systems operate inside platform-mediated service environments, in
 
 Human-in-the-loop intervention, escalation timing, AI failure recovery, and worker effort in hybrid service systems.
 :::
-
-::: {.stream-card}
-### Empirical Methods
-
-Field experiments, causal inference, platform data, quasi-experimental methods, machine learning, textual analysis, and LLM-based measures.
-:::
 :::
 :::
 
