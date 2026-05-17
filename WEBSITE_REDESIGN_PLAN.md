@@ -49,6 +49,19 @@ Navigation recommendation:
 
 The `CV` item should link to a dedicated `cv.qmd` page. That page should provide a prominent PDF download, preferably to a canonical stable filename such as `cv/Chuan_Zhu_CV.pdf`, and a concise web summary of the CV. Contact information should remain on the homepage and in the footer, not as a standalone page.
 
+Navbar display rule:
+
+- Use a concise site brand in the navbar: `Chuan (River) Zhu`.
+- Do not place research keywords or the full SEO title in the visible navbar brand, because it becomes visually crowded and truncates poorly on smaller screens.
+- Keep the navbar focused on page navigation only: `Home`, `Research`, `Industry`, `Teaching & Service`, and `CV`.
+- Do not include `Email`, `ORCID`, or `LinkedIn` in the navbar. These links should appear in the homepage contact section and compact footer links, where they are more contextually useful.
+
+Visible page title rule:
+
+- Suppress Quarto's default visible title metadata block on public pages.
+- Keep page titles, descriptions, authorship, and keywords as metadata for SEO and sharing where useful, but do not display `Author` or `Keywords` as page content.
+- Each page should instead begin with its custom designed content section, such as a homepage hero or a concise page introduction.
+
 Design influence from examples:
 
 - From Hongseok Namkoong: use a clear research agenda / philosophy section that explains the intellectual center of the work.
@@ -385,13 +398,15 @@ Recommended asset cleanup:
 
 SEO:
 
-- Update `_quarto.yml` title to `Chuan Zhu`.
+- Update `_quarto.yml` visible site title to `Chuan (River) Zhu`.
+- Keep the fuller research identity in metadata descriptions, Open Graph text, and page copy rather than in the navbar title.
 - Update site description to mention operations management, AI, GenAI, service operations, and platform operations.
 - Replace placeholder site URL.
 - Add page-level descriptions where useful.
 - Use descriptive page titles.
 - Use meaningful link text, not "click here."
-- Add research keywords naturally in homepage and Research and Publications page text.
+- Add research keywords naturally in homepage and Research and Publications page text, and keep keyword metadata invisible to readers.
+- Hide Quarto's generated visible title metadata block so `Author` and `Keywords` do not appear as standalone page sections.
 
 Accessibility:
 
@@ -443,11 +458,11 @@ Recommended implementation order:
 
 3. Update site configuration
    - `_quarto.yml`
-   - Site title
+   - Short visible site title
    - Site description
-   - Navbar
+   - Navbar with page links only
    - Footer
-   - Social links
+   - Social links in homepage contact/footer, not in the navbar
 
 4. Redesign homepage
    - Replace blog listing with a combined academic homepage

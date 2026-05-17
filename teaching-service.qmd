@@ -2,14 +2,14 @@
 title: "Teaching & Service | Chuan (River) Zhu"
 page-layout: full
 title-block-banner: false
-description: "Teaching assistant experience, conference presentations, and academic service information for Chuan (River) Zhu."
+description: "Teaching assistant experience, conference presentations, and academic honors for Chuan (River) Zhu."
 author: "Chuan (River) Zhu"
 keywords:
   - teaching assistant
   - operations management teaching
-  - academic service
   - conference presentations
   - empirical operations management
+  - academic honors
 ---
 
 ::: {.home-page}
@@ -19,12 +19,12 @@ keywords:
 
 # Teaching & Service
 
-This page summarizes my teaching experience, teaching assistant roles, conference presentations, and academic service. It is kept concise and will be updated as additional public information becomes available.
+This page summarizes verified teaching, presentation, and honors information from the current local source files.
 
 ::: {.hero-links}
 [Teaching](#teaching-experience){.link-button}
 [Presentations](#conference-presentations){.link-button}
-[Service](#reviewer-or-academic-service){.link-button}
+[Honors](#honors-fellowships-and-awards){.link-button}
 [Homepage contact section](index.qmd#contact){.link-button}
 :::
 :::
@@ -33,12 +33,6 @@ This page summarizes my teaching experience, teaching assistant roles, conferenc
 ## Teaching Experience
 
 My teaching experience is currently represented by teaching assistant roles across operations management, market analytics, economics, and entrepreneurship courses.
-
-TODO: Add teaching interests, guest lectures, independent teaching, course evaluations, or teaching statement link when available.
-:::
-
-::: {.content-band}
-## Teaching Assistant Roles
 
 ::: {.paper-list}
 ::: {.paper-entry}
@@ -68,12 +62,6 @@ Teaching Assistant, Undergraduate, Spring 2019.
 :::
 
 ::: {.content-band}
-## Guest Lectures
-
-TODO: Add guest lectures, invited classroom sessions, or teaching workshops if available.
-:::
-
-::: {.content-band}
 ## Conference Presentations
 
 - **Agentic AI and Human-in-the-Loop Interventions: Field Experimental Evidence from Alibaba's Customer Service Operations.** POMS Annual Meeting, 2026.
@@ -81,12 +69,10 @@ TODO: Add guest lectures, invited classroom sessions, or teaching workshops if a
 :::
 
 ::: {.content-band .contact-band}
-## Reviewer or Academic Service
+## Honors, Fellowships, and Awards
 
-- TODO: Add reviewer service, including journal, conference, role, and year.
-- TODO: Add conference service, such as session chair, discussant, organizer, or volunteer roles.
-- TODO: Add departmental or university service if you want it shown publicly.
-- TODO: Add professional memberships if relevant.
+- **Climate Corps Fellow**, Environmental Defense Fund, 2021.
+- **Outstanding Academic Scholarship**, School of Management, Fudan University, 2019.
 :::
 
 :::

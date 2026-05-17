@@ -20,7 +20,7 @@ keywords:
 
 # Industry Experience
 
-My industry experience supports my empirical research in AI-enabled service operations, platform operations, and operational decision-making. I use this page to document research-relevant collaboration and field-facing experience while keeping confidential details out of the public website.
+My industry experience supports my empirical research in AI-enabled service operations, platform operations, and operational decision-making.
 
 ::: {.hero-links}
 [Alibaba Group](#alibaba-group){.link-button}
@@ -45,7 +45,6 @@ My industry experience supports my empirical research in AI-enabled service oper
 
 **Research relevance:** This collaboration supports my research on AI-enabled customer service operations, human-AI collaboration, workforce management, and platform operations.
 
-TODO: Add preferred confidentiality wording for public descriptions of the Alibaba collaboration.
 :::
 
 ::: {.paper-entry}
@@ -61,7 +60,6 @@ TODO: Add preferred confidentiality wording for public descriptions of the Aliba
 
 [LONGi green supply chain public project page](https://www.longi.com/cn/sustainability/green-supply-chain/)
 
-TODO: Confirm whether this public project link should remain on the website.
 :::
 :::
 :::
@@ -70,15 +68,6 @@ TODO: Confirm whether this public project link should remain on the website.
 ## Research Connection
 
 These roles help ground my academic work in operational settings where technology, workers, customers, and organizations interact. The Alibaba collaboration is most directly connected to my current agenda on AI-enabled service operations and platform operations. The EDF Climate Corps and LONGi experience adds broader exposure to supplier-side operational analysis and sustainability-oriented process improvement.
-:::
-
-::: {.content-band .contact-band}
-## Information To Complete
-
-- TODO: Confirm final confidentiality language for industry collaborations.
-- TODO: Confirm whether to include company logos or keep this page text-only.
-- TODO: Confirm whether all public project links should be displayed.
-- TODO: Add any additional verified industry collaborations, if applicable.
 :::
 
 :::

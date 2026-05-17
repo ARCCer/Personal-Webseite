@@ -20,8 +20,6 @@ keywords:
 
 # CV
 
-This page provides a concise web summary of my academic CV. The complete PDF version is available below.
-
 ::: {.hero-links}
 [Download CV PDF](cv/Chuan_Zhu_CV_updated.pdf){.link-button .primary}
 [Research](research.qmd){.link-button}
@@ -29,7 +27,6 @@ This page provides a concise web summary of my academic CV. The complete PDF ver
 [Teaching & Service](teaching-service.qmd){.link-button}
 :::
 
-TODO: Choose one canonical public CV filename, such as `cv/Chuan_Zhu_CV.pdf`, before final deployment.
 :::
 
 ::: {.content-band}
@@ -44,8 +41,6 @@ TODO: Choose one canonical public CV filename, such as `cv/Chuan_Zhu_CV.pdf`, be
 - **LinkedIn:** [Chuan Zhu](https://www.linkedin.com/in/chuan-zhu-86692a169/)
 - **SSRN:** [Author page](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=11527448)
 - **Last updated:** 2026-5-15
-- TODO: Add Google Scholar URL.
-- TODO: Add public GitHub URL, if applicable.
 :::
 
 ::: {.content-band}
@@ -101,15 +96,11 @@ Customer service and contact-center operations; digital platforms and online mar
 ::: {.content-band}
 ## Research Output
 
-### Publications
-
-TODO: Add published, accepted, or forthcoming papers when available.
-
 ### Working Papers
 
 ::: {.paper-list}
 ::: {.paper-entry}
-<div class="paper-meta">Job Market Paper | Under review at <em>Operations Research</em> | Year: TODO</div>
+<div class="paper-meta">Job Market Paper | Under review at <em>Operations Research</em></div>
 
 #### Agentic AI and Human-in-the-Loop Interventions: Field Experimental Evidence from Alibaba's Customer Service Operations
 
@@ -123,7 +114,7 @@ Yiwei Wang, **Chuan Zhu**, Tianjun Feng, Lauren Xiaoyuan Lu, and Bingxin Jia.
 :::
 
 ::: {.paper-entry}
-<div class="paper-meta">Working paper | Venue/status detail: TODO | Year: TODO</div>
+<div class="paper-meta">Working paper</div>
 
 #### Managing Front-office and Back-office Effort Allocation: Unpacking the Effects of Workload on Service Performance
 
@@ -167,10 +158,6 @@ Climate Corps Fellow, July 2021 to Oct. 2021. Full-time, onsite internship in Xi
 ### Teaching
 
 Teaching Assistant for Operations Management, Data-Driven Market Analysis, Microeconomics, and Theories and Practices of Entrepreneurship.
-
-### Academic Service
-
-TODO: Add reviewer service, conference service, departmental service, and professional memberships when available.
 
 ### Honors, Fellowships, and Awards
 

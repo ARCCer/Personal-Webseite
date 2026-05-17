@@ -25,6 +25,11 @@ body {
   line-height: 1.65;
 }
 
+#title-block-header,
+.quarto-title-block {
+  display: none;
+}
+
 a {
   color: var(--accent);
   text-decoration-thickness: 0.08em;
@@ -97,7 +102,7 @@ footer.footer {
 
 .hero-section {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 250px;
+  grid-template-columns: minmax(0, 1fr) 220px;
   gap: 3.5rem;
   align-items: center;
   padding: 5rem 0 3.5rem;
@@ -173,13 +178,18 @@ footer.footer {
 
 .hero-photo-wrap {
   justify-self: end;
-  width: 245px;
+  width: 220px;
+}
+
+.hero-photo-wrap p {
+  margin: 0;
 }
 
 .hero-photo {
-  width: 245px;
-  aspect-ratio: 1;
+  width: 220px;
+  aspect-ratio: 4 / 5;
   object-fit: cover;
+  object-position: center 18%;
   border: 1px solid var(--line);
   border-radius: 6px;
   box-shadow: var(--shadow);
@@ -190,10 +200,50 @@ footer.footer {
   border-bottom: 1px solid var(--line);
 }
 
+section.content-band.level2 {
+  display: grid;
+  grid-template-columns: minmax(8.5rem, 0.24fr) minmax(0, 1fr);
+  column-gap: clamp(2rem, 5vw, 4rem);
+  row-gap: 0.95rem;
+  align-items: start;
+}
+
+section.content-band.level2 > h2 {
+  grid-column: 1;
+  display: block;
+  margin: 0;
+  padding-top: 0.16rem;
+}
+
+section.content-band.level2 > h2::after {
+  display: block;
+  width: 3rem;
+  height: 2px;
+  margin-top: 0.9rem;
+  background: var(--accent);
+}
+
+section.content-band.level2 > :not(h2) {
+  grid-column: 2;
+}
+
 .content-band h1 + p,
 .content-band > p {
   max-width: 880px;
   color: var(--muted);
+}
+
+section.content-band.level2 > p {
+  max-width: 760px;
+  margin: 0 0 1rem;
+  color: var(--muted);
+  font-size: 1.02rem;
+  line-height: 1.78;
+  text-wrap: pretty;
+}
+
+section.content-band.level2 > p:last-child {
+  margin-bottom: 0;
 }
 
 .content-band h2 {
@@ -367,13 +417,13 @@ footer.footer {
 
 @media (max-width: 920px) {
   .hero-section {
-    grid-template-columns: minmax(0, 1fr) 210px;
+    grid-template-columns: minmax(0, 1fr) 190px;
     gap: 2.4rem;
   }
 
   .hero-photo-wrap,
   .hero-photo {
-    width: 210px;
+    width: 190px;
   }
 }
 
@@ -404,11 +454,15 @@ footer.footer {
 
   .hero-photo-wrap,
   .hero-photo {
-    width: 180px;
+    width: 160px;
   }
 
   .content-band {
     padding: 2.35rem 0;
+  }
+
+  section.content-band.level2 {
+    display: block;
   }
 
   .content-band h2 {
@@ -416,10 +470,19 @@ footer.footer {
     font-size: 1.35rem;
   }
 
+  section.content-band.level2 > h2 {
+    margin-bottom: 1.15rem;
+  }
+
   .content-band h2::after {
     display: block;
     width: 100%;
     margin-top: 0.65rem;
+  }
+
+  section.content-band.level2 > h2::after {
+    width: 100%;
+    height: 1px;
   }
 
   .stream-grid,

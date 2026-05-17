@@ -24,33 +24,32 @@ keywords:
 
 # Chuan (River) Zhu
 
-I am an empirical operations management scholar studying how AI, GenAI, and human-AI collaboration reshape service operations, platform operations, and organizational decision-making.
-
 ::: {.hero-links}
-[CV page](cv.qmd){.link-button .primary}
-[Email Chuan Zhu](mailto:zhuc21@m.fudan.edu.cn){.link-button}
+[CV](cv.qmd){.link-button .primary}
+[Email](mailto:zhuc21@m.fudan.edu.cn){.link-button}
 [Research](research.qmd){.link-button}
 [Industry](industry.qmd){.link-button}
 [ORCID](https://orcid.org/0009-0006-7660-3598){.link-button}
 [LinkedIn](https://www.linkedin.com/in/chuan-zhu-86692a169/){.link-button}
-[SSRN author page](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=11527448){.link-button}
+[SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=11527448){.link-button}
 :::
 
 :::
 
 ::: {.hero-photo-wrap}
-![Portrait of Chuan Zhu](assets/Figures/1.jpg){.hero-photo}
+<img src="assets/Figures/1.jpg" alt="Portrait of Chuan (River) Zhu" class="hero-photo">
 :::
 :::
 
 ::: {.content-band}
 ## Bio
 
-I am a Ph.D. Candidate in Business Artificial Intelligence at the School of Management, Fudan University, expected 2027. I received a B.S. in Logistics Engineering from Northeast Forestry University in 2018.
+I am a Ph.D. Candidate in Business Artificial Intelligence at the School of Management, Fudan University. My advisor is Professor Tianjun Feng. My research lies at the intersection of empirical operations management, AI-enabled service operations, and platform operations.
 
-My work uses empirical operations management methods, including field experiments, causal inference, platform data, machine learning, and LLM-based measurement, to study operational decisions in AI-enabled service systems.
+I study how generative AI, AI agents, and human-AI collaboration reshape operational decisions in service operations. My work uses field experiments, causal inference, platform data, machine learning, and LLM-based measurement to examine questions such as when AI systems should act autonomously, when human intervention is valuable, and how platforms can design service processes that balance efficiency, quality, and customer experience.
 
-TODO: Add Google Scholar URL and public GitHub URL if available.
+My current research is also grounded in industry collaboration, especially in customer service and platform contexts where AI systems interact with workers, customers, and organizational decision rules.
+
 :::
 
 ::: {.content-band}
@@ -148,8 +147,6 @@ Climate Corps Fellow, July 2021 to Oct. 2021. This work examined supplier-side c
 
 I have served as a teaching assistant for Operations Management, Data-Driven Market Analysis, Microeconomics, and Theories and Practices of Entrepreneurship across MBA, master's, and undergraduate courses.
 
-TODO: Add teaching interests, guest lectures, reviewer service, and conference service when available.
-
 [View teaching and service](teaching-service.qmd){.link-button}
 :::
 
@@ -158,7 +155,6 @@ TODO: Add teaching interests, guest lectures, reviewer service, and conference s
 
 For research, collaboration, or teaching-related inquiries, please reach me by [email](mailto:zhuc21@m.fudan.edu.cn). You can also find my academic profiles on [ORCID](https://orcid.org/0009-0006-7660-3598), [LinkedIn](https://www.linkedin.com/in/chuan-zhu-86692a169/), and my [SSRN author page](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=11527448).
 
-TODO: Add Google Scholar, GitHub, and final personal website URL when available.
 :::
 
 :::

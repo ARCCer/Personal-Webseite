@@ -10,3 +10,10 @@
 .DS_Store
 Thumbs.db
 
+
+/.quarto/
+**/*.quarto_ipynb
+
+# Quarto local preview/build output
+/_site/
+.quarto-preview.*.log

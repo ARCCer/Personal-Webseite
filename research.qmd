@@ -29,8 +29,8 @@ The agenda is empirical and field-grounded. I use field experiments, platform da
 ::: {.hero-links}
 [Research Streams](#research-streams){.link-button}
 [Working Papers](#working-papers){.link-button}
-[Work in Progress](#work-in-progress){.link-button}
 [Selected Projects](#selected-projects){.link-button}
+[Presentations](#selected-presentations){.link-button}
 :::
 :::
 
@@ -38,9 +38,9 @@ The agenda is empirical and field-grounded. I use field experiments, platform da
 ## Research Philosophy
 
 ::: {.philosophy-note}
-**English version.** I take inspiration from von Neumann's view that formal disciplines stay vital when they repeatedly return to their empirical sources. Models, methods, and metrics are most useful when they are replenished by ideas drawn from reality.
+I take inspiration from von Neumann's view that formal disciplines stay vital when they repeatedly return to their empirical sources. Models, methods, and metrics are most useful when they are replenished by ideas drawn from reality.
 
-**中文版本。** 朱熹说：“问渠哪得清如许，为有源头活水来。” 对我而言，这句诗表达了同样的研究观：学术问题的清澈与生命力，来自对真实运营现场和一手经验的持续回到。
+朱熹说：“问渠哪得清如许，为有源头活水来。” 对我而言，这句诗表达了同样的研究观：学术问题的清澈与生命力，来自对现实问题和未来发展的持续思考。
 :::
 
 This perspective shapes how I study AI-enabled operations. AI changes operations not only by automating tasks, but also by changing who observes problems, who intervenes, who bears responsibility for service failures, and how platforms allocate scarce human attention. My research begins from this operational view of AI systems.
@@ -73,12 +73,6 @@ I study human-in-the-loop intervention, AI failure recovery, intervention timing
 :::
 
 ::: {.stream-card}
-### Content Governance, Trust, and Digital Platforms
-
-This is a developing stream on how platforms govern interactions, information quality, and trust in AI-enabled digital environments. TODO: add specific projects, settings, and papers before presenting this as a mature research stream.
-:::
-
-::: {.stream-card}
 ### Empirical Methods for AI-Enabled Operations
 
 My work uses field experiments, causal inference, platform data, machine learning, textual analysis, and LLM-based measures to study operational systems affected by AI deployment.
@@ -87,17 +81,11 @@ My work uses field experiments, causal inference, platform data, machine learnin
 :::
 
 ::: {.content-band}
-## Publications
-
-TODO: Add published, accepted, or forthcoming papers when available.
-:::
-
-::: {.content-band}
 ## Working Papers
 
 ::: {.paper-list}
 ::: {.paper-entry}
-<div class="paper-meta">Job Market Paper | Under review at <em>Operations Research</em> | Year: TODO</div>
+<div class="paper-meta">Job Market Paper | Under review at <em>Operations Research</em></div>
 
 ### Agentic AI and Human-in-the-Loop Interventions: Field Experimental Evidence from Alibaba's Customer Service Operations
 
@@ -115,7 +103,7 @@ This paper studies the deployment of agentic AI in Alibaba Taobao's customer ser
 :::
 
 ::: {.paper-entry}
-<div class="paper-meta">Working paper | Venue/status detail: TODO | Year: TODO</div>
+<div class="paper-meta">Working paper</div>
 
 ### Managing Front-office and Back-office Effort Allocation: Unpacking the Effects of Workload on Service Performance
 
@@ -130,12 +118,6 @@ This paper examines how workload shapes online service agents' allocation betwee
 :::
 :::
 :::
-:::
-
-::: {.content-band}
-## Work in Progress
-
-TODO: Add work-in-progress projects when they are ready to describe publicly. For each project, include title, coauthors, stage, research question, empirical setting, methods, and public status note.
 :::
 
 ::: {.content-band}

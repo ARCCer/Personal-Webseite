@@ -1,12 +1,27 @@
 project:
   type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - research.qmd
+    - industry.qmd
+    - teaching-service.qmd
+    - cv.qmd
+  resources:
+    - "robots.txt"
+    - "assets/Figures/1.jpg"
+    - "cv/Chuan_Zhu_CV_updated.pdf"
+    - "papers/Agentic AI and Human-in-the-Loop Interventions_2026-0511_corrected-original.pdf"
+    - "papers/Visible Interaction, Invisible Resolution Workload and Effort Allocation in Online Customer Service.pdf"
 
 lang: en
 author: "Chuan (River) Zhu"
 
 website:
-  title: "Chuan (River) Zhu | AI, Generative AI, and Operations Management Research"
+  title: "Chuan (River) Zhu"
   description: "Personal academic website of Chuan (River) Zhu, a PhD researcher studying AI, generative AI, AI agents, service operations, platform operations, human-AI collaboration, and empirical operations management."
+  site-url: "https://arccer.github.io/Personal-Webseite/"
+  repo-url: "https://github.com/ARCCer/Personal-Webseite"
   open-graph: true
   twitter-card: true
   navbar:
@@ -21,13 +36,6 @@ website:
         href: teaching-service.qmd
       - text: "CV"
         href: cv.qmd
-    right:
-      - text: "Email"
-        href: mailto:zhuc21@m.fudan.edu.cn
-      - text: "ORCID"
-        href: https://orcid.org/0009-0006-7660-3598
-      - text: "LinkedIn"
-        href: https://www.linkedin.com/in/chuan-zhu-86692a169/
   page-footer:
     left: "Chuan (River) Zhu | School of Management, Fudan University"
     right:
