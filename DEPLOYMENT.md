@@ -5,7 +5,7 @@ This Quarto website is deployed with GitHub Pages through GitHub Actions.
 Target public URL:
 
 ```text
-https://chuanzhu.github.io/
+https://chuanzhu.site/
 ```
 
 ## Strategy
@@ -52,22 +52,24 @@ GitHub Actions uploads `_site/` with `actions/upload-pages-artifact` and deploys
 
 ## Manual GitHub Pages Setting
 
-To publish at `https://chuanzhu.github.io/`, the GitHub repository must be a user or organization Pages repository named:
-
-```text
-chuanzhu.github.io
-```
-
-owned by the `Chuanzhu` GitHub account or organization. If this project remains under `ARCCer/Personal-Webseite`, GitHub Pages will publish it as a project site at `https://arccer.github.io/Personal-Webseite/`.
-
-In the GitHub repository, enable GitHub Pages deployment from Actions:
+In the GitHub repository, keep GitHub Pages deployment from Actions enabled:
 
 1. Open the repository on GitHub.
 2. Go to `Settings`.
 3. Go to `Pages`.
 4. Under `Build and deployment`, set `Source` to `GitHub Actions`.
+5. Under `Custom domain`, set `chuanzhu.site`.
+6. Enable `Enforce HTTPS` after GitHub finishes checking the domain.
 
 After this setting is enabled, every push to `main` should build and publish the site automatically.
+
+The DNS records for the custom domain should point to GitHub Pages. The current public site is expected to resolve at:
+
+```text
+https://chuanzhu.site/
+```
+
+No rendered `_site/` folder should be committed manually.
 
 ## Local Preview Before Release
 
